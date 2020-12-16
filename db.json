@@ -1,14 +1,32 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"CloudConnectMgmtConfig": {
+		"connCfg": {
+			"proxyEnabled": false,
+			"proxyHost": "localhost",
+			"proxyPort": 80
+		},
+		"entitlements": ["cjp-analyzer"],
+		"connDetail": {
+			"clusterId": "8c6ce958-5c23-4a27-a01e-7be254df6a6a",
+			"fmsHost": "hercules-intb.ciscospark.com",
+			"idBrokerHost": "idbrokerbts.webex.com",
+			"machineAccount": {
+				"encryptedPassword": "154e6c37a8a0969ba332bb5b6d5d2c02f03ddc434f5d0276546959f29b032ac9337328e0e9f8a729d6b24feb817114cb0b75f93a9eb0819e7d1fc71b326e8b64",
+				"id": "b5944404-d400-4f68-b421-ea25c5c3f9d6",
+				"name": "fusion-mgmnt-99d15945-8297-4877-8ed5-42cd9d0eddce",
+				"timestamp": 1574760974507,
+				"url": "https://identitybts.webex.com/organization/15d15b8a-fd40-4ea9-9cfe-96d02c8a75e3/v1/Machines/b5944404-d400-4f68-b421-ea25c5c3f9d6"
+			},
+			"orgId": "15d15b8a-fd40-4ea9-9cfe-96d02c8a75e3",
+			"registeredAt": 1574760974510,
+			"serviceUrls": {
+				"wcc-analyzer-api": "https://analyzer-sim-k8s.loadus1.ciscoccservice.com/aws/api/",
+				"wcc-cms": "https://cms.appstaging.ciscoccservice.com/"
+			},
+			"u2cHost": "u2c-intb.ciscospark.com"
+		},
+		"entitlements": ["cjp-analyzer"],
+		"lastUpdatedTimestamp": 1574760974708,
+		"version": 1
+	}
 }
