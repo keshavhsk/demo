@@ -1,32 +1,52 @@
 {
-	"CloudConnectMgmtConfig": {
-		"connCfg": {
-			"proxyEnabled": false,
-			"proxyHost": "localhost",
-			"proxyPort": 80
-		},
-		"entitlements": ["cjp-analyzer"],
-		"connDetail": {
-			"clusterId": "8c6ce958-5c23-4a27-a01e-7be254df6a6a",
-			"fmsHost": "hercules-intb.ciscospark.com",
-			"idBrokerHost": "idbrokerbts.webex.com",
-			"machineAccount": {
-				"encryptedPassword": "154e6c37a8a0969ba332bb5b6d5d2c02f03ddc434f5d0276546959f29b032ac9337328e0e9f8a729d6b24feb817114cb0b75f93a9eb0819e7d1fc71b326e8b64",
-				"id": "b5944404-d400-4f68-b421-ea25c5c3f9d6",
-				"name": "fusion-mgmnt-99d15945-8297-4877-8ed5-42cd9d0eddce",
-				"timestamp": 1574760974507,
-				"url": "https://identitybts.webex.com/organization/15d15b8a-fd40-4ea9-9cfe-96d02c8a75e3/v1/Machines/b5944404-d400-4f68-b421-ea25c5c3f9d6"
+	"data": {
+		"agentId": "83e116f3-3a1d-486d-989c-688107efb68f",
+		"eventType": "RoutingMessage",
+		"interaction": {
+			"callAssociatedDetails": {
+				"zNnoHjZfMN": "SpMsVg9g3N"
 			},
-			"orgId": "15d15b8a-fd40-4ea9-9cfe-96d02c8a75e3",
-			"registeredAt": 1574760974510,
-			"serviceUrls": {
-				"wcc-analyzer-api": "https://analyzer-sim-k8s.loadus1.ciscoccservice.com/aws/api/",
-				"wcc-cms": "https://cms.appstaging.ciscoccservice.com/"
+			"callFlowParams": {
+				"hz8Iuz4lBs": {
+					"RK1L9EC7ke": "t4XBImgXLT"
+				}
 			},
-			"u2cHost": "u2c-intb.ciscospark.com"
+			"callProcessingDetails": {
+				"v6mKI4Kz22": "wvLVdYl8SH"
+			},
+			"interactionId": "e537163a-2732-45c0-b1c7-2c1ee9c16e3e",
+			"isTerminated": false,
+			"media": {
+				"957lCJIwcU": {
+					"isHold": false,
+					"mType": "XVC3tdSz4I",
+					"mediaMgr": "GQcltDI4Wf",
+					"mediaResourceId": "joHZ4krwPb",
+					"mediaType": "peYuD5JiyL",
+					"participants": ["SqIu78QQ5A", "AGPR7td90l"]
+				}
+			},
+			"mediaChannel": "xzK8N93CTy",
+			"mediaType": "chat",
+			"orgId": "f1217c85-c3ae-4686-a7b6-4fddb49aaef2",
+			"owner": null,
+			"participants": {
+				"u5bdJTQ1Zm": {
+					"id": "17f1271b-5227-4f99-b8c2-8906eb4ed017",
+					"pType": "6jawavmnj6",
+					"type": "Customer"
+				}
+			},
+			"state": ""
 		},
-		"entitlements": ["cjp-analyzer"],
-		"lastUpdatedTimestamp": 1574760974708,
-		"version": 1
-	}
+		"interactionId": "e537163a-2732-45c0-b1c7-2c1ee9c16e3e",
+		"mediaResourceId": "4DDKd7fN8l",
+		"orgId": "590ecde6-88e1-4bfe-af2a-f560424486ec",
+		"ronaTimeout": 5,
+		"trackingId": "5jcawc4VlNkRehMXl59VaUQf9hNz5yFy",
+		"type": "NotifsLoadTestMessageBigPayload"
+	},
+	"orgId": "590ecde6-88e1-4bfe-af2a-f560424486ec",
+	"trackingId": "notif-load-notifs_02dd1dee-119a-4aed-8dd4-a1f2b8b29004",
+	"type": "RoutingMessage"
 }
